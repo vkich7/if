@@ -9,6 +9,7 @@ namespace Condition
         /// </summary>        
         public static int Task1(int n)
         {
+			return 1;
             throw new NotImplementedException();
         }
 
