@@ -9,7 +9,12 @@ namespace Condition
         /// </summary>        
         public static int Task1(int n)
         {
-			return 1;
+			int sum=0;
+			for (int i=1; i<n; i++)
+			{
+				sum += i;
+			}
+			return sum;
             throw new NotImplementedException();
         }
 
